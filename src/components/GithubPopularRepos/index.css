@@ -1,0 +1,54 @@
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view {
+  width: 250px;
+  height: 180px;
+}
+
+.failure-text {
+  text-align: center;
+  color: #1e293b;
+  font-family: 'Lobster';
+  font-size: 28px;
+}
+
+.repos-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+  max-width: 1140px;
+}
+
+.language-filter {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.repos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 48px;
+  margin-bottom: 48px;
+}
